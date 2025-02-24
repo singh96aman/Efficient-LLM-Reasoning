@@ -1,6 +1,4 @@
-# My Python Project
-
-## Efficient Reasoning using Self-BackTracking
+# Efficient Reasoning using Self-BackTracking
 
 ## Installation Instructions
 It's recommended to use Micromamba to setup your project -
@@ -11,11 +9,17 @@ micromamba create -y --quiet -f environment.yaml
 micromamba activate efficientreasoning
 ```
 
+If you update the environment - 
+
+```
+micromamba env export -n efficientreasoning > environment2.yml
+```
+
 ## Usage
 To run the application, execute the following command:
 
 ```
-python src/main.py
+python src/main.py --configid XXXX
 ```
 
 ## Contributing
